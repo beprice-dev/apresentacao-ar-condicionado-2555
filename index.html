@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Modelos de site para empresa de ar-condicionado · Price Digital</title>
+<meta name="description" content="Veja os 3 modelos de site para empresa de ar-condicionado (Urgência, Vitrine e Autoridade), com WhatsApp, mapa e formulário. Peça o seu agora.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{--bg:#FAFAF8;--surface:#FFFFFF;--surface-2:#F1F1EC;--ink:#1B1D1F;--ink-2:#52565C;--ink-3:#84888E;
+--line:#E4E3DC;--acc:#2A6F5E;--acc-2:#1F5548;--on-acc:#FFFFFF;--r:16px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14161A;--surface:#1B1E23;--surface-2:#22262C;--ink:#EDEEF0;--ink-2:#B7BBC2;--ink-3:#868C95;--line:#2A2F36;--acc:#4FBBA0;--acc-2:#3E9B84;--on-acc:#0E1512}}
+:root[data-theme="dark"]{--bg:#14161A;--surface:#1B1E23;--surface-2:#22262C;--ink:#EDEEF0;--ink-2:#B7BBC2;--ink-3:#868C95;--line:#2A2F36;--acc:#4FBBA0;--acc-2:#3E9B84;--on-acc:#0E1512}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;line-height:1.6}
+img{max-width:100%}
+.wrap{max-width:1120px;margin-inline:auto;padding-inline:clamp(18px,4vw,32px)}
+header.top{padding-block:22px;border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{font-family:'Sora',system-ui,sans-serif;font-weight:700;font-size:18px}
+.brand small{display:block;font-size:12px;font-weight:500;color:var(--ink-3);letter-spacing:.06em;text-transform:uppercase}
+.hero{padding-block:clamp(40px,7vw,72px) clamp(24px,4vw,40px)}
+.hero h1{font-family:'Sora',system-ui,sans-serif;font-size:clamp(28px,4.2vw,44px);font-weight:700;letter-spacing:-.02em;max-width:20ch;margin:0 0 16px}
+.hero p{color:var(--ink-2);font-size:clamp(15px,1.4vw,17.5px);max-width:62ch;margin:0}
+.modelos{padding-block:12px clamp(40px,6vw,64px)}
+.modelos-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+@media (max-width:900px){.modelos-grid{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+.preview{aspect-ratio:4/3;overflow:hidden;position:relative;background:var(--surface-2);border-bottom:1px solid var(--line)}
+.preview iframe{width:400%;height:400%;transform:scale(.25);transform-origin:0 0;border:0;pointer-events:none}
+.preview .tag{position:absolute;top:10px;left:10px;background:var(--ink);color:var(--bg);font-size:12px;font-weight:600;padding:4px 10px;border-radius:999px}
+.card-b{padding:20px 20px 22px;display:flex;flex-direction:column;gap:12px;flex:1}
+.card-b h3{font-family:'Sora',system-ui,sans-serif;font-size:19px;margin:0}
+.card-b p{color:var(--ink-2);font-size:14.5px;margin:0}
+.card-actions{margin-top:auto;display:flex;flex-direction:column;gap:8px;padding-top:8px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;cursor:pointer;font:600 14.5px 'Inter',sans-serif;padding:12px 16px;border-radius:10px;text-decoration:none;text-align:center}
+.btn.pri{background:var(--acc);color:var(--on-acc)}
+.btn.sec{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--line)}
+.precos{padding-block:clamp(24px,4vw,40px) clamp(56px,8vw,88px)}
+.precos h2{font-family:'Sora',system-ui,sans-serif;font-size:clamp(22px,3vw,30px);margin:0 0 8px}
+.precos>.wrap>p{color:var(--ink-2);margin:0 0 26px;max-width:60ch}
+.planos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+@media (max-width:900px){.planos{grid-template-columns:1fr}}
+.plano{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:24px}
+.plano b{display:block;font-family:'Sora',system-ui,sans-serif;font-size:16px;margin-bottom:6px}
+.plano .valor{font-family:'Sora',system-ui,sans-serif;font-size:26px;font-weight:700;color:var(--acc);margin-bottom:10px}
+.plano p{color:var(--ink-2);font-size:14px;margin:0}
+.aviso{background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;font-size:14.5px;color:var(--ink-2)}
+footer.bot{border-top:1px solid var(--line);padding-block:28px;font-size:13px;color:var(--ink-3)}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">Price Digital<small>Sites para ar-condicionado</small></div>
+</div></header>
+
+<section class="hero"><div class="wrap">
+  <h1>Modelos de site para empresa de ar-condicionado</h1>
+  <p>Os 3 modelos abaixo têm estruturas diferentes, cada uma pensada para um jeito de atrair cliente. Veja qual combina mais com o seu negócio (dados fictícios, só para ilustrar).</p>
+</div></section>
+
+<section class="modelos"><div class="wrap modelos-grid">
+  
+      <div class="card">
+        <div class="preview"><span class="tag">Modelo A</span><iframe src="modelo-a/index.html" loading="lazy" tabindex="-1"></iframe></div>
+        <div class="card-b">
+          <h3>Modelo A · Urgência</h3>
+          <p>Telefone e WhatsApp gigantes no topo, aviso de &quot;atendemos hoje&quot; e a cobertura da região. Poucas seções, pensado para quem está com pressa.</p>
+          <div class="card-actions">
+            <a class="btn sec" href="modelo-a/index.html" target="_blank" rel="noopener">Ver modelo completo</a>
+            <a class="btn pri" href="mailto:pricedigital.contato@gmail.com?subject=Modelo%20A%20-%20Ar-condicionado">Quero este modelo</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="preview"><span class="tag">Modelo B</span><iframe src="modelo-b/index.html" loading="lazy" tabindex="-1"></iframe></div>
+        <div class="card-b">
+          <h3>Modelo B · Vitrine</h3>
+          <p>Galeria de fotos reais do trabalho, filtrável por serviço, e avaliações em destaque. Pensado para mostrar a qualidade do trabalho antes de fechar.</p>
+          <div class="card-actions">
+            <a class="btn sec" href="modelo-b/index.html" target="_blank" rel="noopener">Ver modelo completo</a>
+            <a class="btn pri" href="mailto:pricedigital.contato@gmail.com?subject=Modelo%20B%20-%20Ar-condicionado">Quero este modelo</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="preview"><span class="tag">Modelo C</span><iframe src="modelo-c/index.html" loading="lazy" tabindex="-1"></iframe></div>
+        <div class="card-b">
+          <h3>Modelo C · Autoridade</h3>
+          <p>Texto mais completo sobre o profissional, credenciais e perguntas frequentes. Pensado para transmitir experiência e confiança.</p>
+          <div class="card-actions">
+            <a class="btn sec" href="modelo-c/index.html" target="_blank" rel="noopener">Ver modelo completo</a>
+            <a class="btn pri" href="mailto:pricedigital.contato@gmail.com?subject=Modelo%20C%20-%20Ar-condicionado">Quero este modelo</a>
+          </div>
+        </div>
+      </div>
+</div></section>
+
+
+<section class="precos"><div class="wrap">
+  <h2>Planos</h2>
+  <p>Escolha a estrutura acima (A, B ou C) e o plano abaixo. O modelo pronto usa a estrutura como está; o personalizado e o completo ajustam textos, fotos e seções para o seu negócio.</p>
+  <div class="planos">
+          <div class="plano"><b>Modelo pronto</b><div class="valor">R$ 497</div><p>Uma das estruturas acima (A, B ou C), com as suas informações.</p></div>
+          <div class="plano"><b>Personalizado</b><div class="valor">R$ 997</div><p>Estrutura ajustada às suas cores, textos e seções.</p></div>
+          <div class="plano"><b>Completo</b><div class="valor">R$ 1.497</div><p>Personalizado + perfil no Google + botão de WhatsApp.</p></div></div>
+</div></section>
+
+<footer class="bot"><div class="wrap">
+  <span>Price Digital · pricedigital.contato@gmail.com</span>
+</div></footer>
+</body>
+</html>
